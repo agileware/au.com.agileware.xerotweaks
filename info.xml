@@ -22,8 +22,13 @@
   </compatibility>
   <civix>
     <namespace>CRM/Xerotweaks</namespace>
+    <format>25.01.1</format>
   </civix>
   <requires>
     <ext>nz.co.fuzion.civixero</ext>
   </requires>
+  <classloader>
+    <psr0 prefix="CRM_" path="."/>
+    <psr4 prefix="Civi\" path="Civi"/>
+  </classloader>
 </extension>
